@@ -1,0 +1,162 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	/*ckground-color: rgba(1,1,4,0.55);*/
+	margin: 0;
+	color:#000;
+	background:url(../img/fondo-registro.jpg) 50% 0 no-repeat fixed;
+	font-size: 20pt;
+/*ackground-position:top center;*/
+	/*ckground-repeat:no-repeat;*/
+	display: inline-block;
+line-height: 40px;
+	/*color:#ffffff;*/
+	/*height: 100%;
+	/*margin: 0px;
+	overflow: hidden;*/
+	text-align: center;
+height: 100%;
+	width: 100%;
+
+
+	
+	
+	
+
+
+
+
+}
+
+header{
+	background: rgba(0,0,0,0.7);
+	margin-bottom: 10px;
+	overflow: hidden;
+	width: 100%;
+}
+
+.wrapper{
+	margin:auto;
+	max-width: 100%;
+	overflow: hidden;
+	width: 100%;
+}
+
+.logo{
+	width: 45%;
+}
+
+.logo{
+	width:45%;
+animation-name: rotacion;-webkit-animation-name: rotacion;
+    animation-timing-function: linear;-webkit-animation-timing-function: linear;
+    animation-iteration-count: infinite;-webkit-animation-iteration-count: infinite;
+    animation-duration: 7s;-webkit-animation-duration: 7s;
+}
+
+@keyframes rotacion {
+  0% {
+    transform: rotateY(0deg);
+  }
+  60%{
+	  transform: rotateY(-360deg);
+  }
+  100%{
+	  	  transform: rotateY(-360deg);
+  }
+}
+@-webkit-keyframes rotacion {
+  0% {
+    -webkit-transform: rotateY(0deg);
+  }
+  60%{
+	  -webkit-transform: rotateY(-360deg);
+  }
+  100%{
+	  	  -webkit-transform: rotateY(-360deg);
+  }
+}
+
+.menu{
+	margin-left: 30%;
+	margin-top: 1.7%;
+	margin-bottom: 7%;
+	width: 65%;
+}
+
+header .logo{
+	color:#f2f2f2;
+	font-size: 40px;
+	margin-top:1.2%;
+	margin-left: 50px;
+	float:left;
+	text-align: center;
+}
+
+header nav{
+	float: right;
+	line-height: 10px;
+}
+
+header nav a{
+	display: inline-block;
+	color:#fff;
+	text-decoration: none;
+	padding: 12px 20px;
+	line-height: normal;
+	font-size: 20px;
+	font-weight: bold;
+	-webkit-transition:all 500ms ease;
+	-o-transition:all 500ms ease;
+	transition:all 500ms ease;
+}
+
+header nav a:hover{
+	background: #ff00f0;
+	border-radius: 15px; 
+}
+
+nav{
+
+	display: inline-block;
+	line-height: 90px;
+	margin: 0.5em auto;
+	max-width: 960px;
+	min-height: 100%;
+	padding: 0.10em;
+	text-align: center;
+	vertical-align: top;
+	width: 40%;
+}
+	
+section#contenedor{
+	background-color: rgba(0,0,1,0.75);
+	/*margin: 0.5em auto;
+	max-width: 100%;
+	padding: 0;
+	text-align: center;*/
+	height: 100%;
+	width: 90%;
+}
+
+.section{
+	display: inline-block;
+	line-height: 90px;
+	margin: 0.5em auto;
+	color: #fff;
+	padding: 0.10em;
+	text-align: left;
+	vertical-align: top;
+	width: 10%;
+}
+
+h1{
+	background-color: rgba(0,0,1,0.75);
+	text-align: center;
+	color:#fff;
+	font-size:30pt;
+}
+
